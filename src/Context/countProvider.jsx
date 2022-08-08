@@ -9,7 +9,7 @@ const CountProvider = ( {children} ) => {
     useEffect( () => {
         const localCount = Number(localStorage.getItem("count"));
         
-        localCount ? setCount(localCount) : setCount(0);
+        if(localCount) setCount(localCount);
     }, [])
 
     return (
