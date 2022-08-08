@@ -3,7 +3,7 @@ import Contador from "./components/Contador";
 
 function App() {
 
-  console.log("Tengo otro commit firmado");
+  console.log("Tengo el último commit firmado");
 
   return (
     <div className="App">
